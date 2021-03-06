@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbox</title>
+    <style>
+        table{
+            width: 30%;
+            border-style: double;
+        }
+        .chat{
+            width: 100%;
+            height: 200px;
+            border: 1px;
+        }
+        .input-text{
+            width: 82%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+            <tr>
+                <td>
+                    <div class="chat"></div>
+                    <div box-2>
+                        <input type="text" class="input-text">
+                        <button class="button">Kirim</button>
+                    </div>    
+                </td>
+            </tr>
+        </table>    
+    </main>
+
+    <script>
+        let chat = document.querySelector(".chat");
+        const input_text = document.querySelector(".input-text");
+        const button = document.querySelector(".button");
+
+        button.addEventListener("click", function() {
+            chat.innerHTML = chat.innerHTML + "<br>" + input_text.value;
+            input_text.value = "";
+        })
+    </script>
+</body>
+</html>

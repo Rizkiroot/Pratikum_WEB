@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset id="form">
+            <table border="1">
+                <legend>Kurs Rupiah - Mata Uang Asing</legend>
+                <tr>
+                    <th>Masukkan Nilai</th> 
+                    <th>Valas</th>
+                    <th>Nilai Rupiah</th>           
+                </tr>
+                <tr>
+                    <td><input type="text" name="" id="kurs" value="0" onkeyup="hitung()"> </td>
+                    <td>
+                        <select onchange="hitung()" id="valas">
+                            <option value="9915">Dollar US</option>
+                            <option value="13472">Dollar Singapore</option>
+                            <option value="874">Ringgih Malaysia</option>
+                            <option value="120">Yen Jepang</option>
+                            <option value="15888">Euro</option>
+                            <option value="3592">Riyal Arab Saudi</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="" id="rupiah" value="0"/></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <script>
+        function hitung(){
+            let kurs = document.getElementById('kurs').value        
+            let a = document.getElementById('valas')
+            console.log(a.value)
+            
+            let hitung  = a.value * kurs
+            let rupiah = document.getElementById('rupiah').value = hitung
+        }
+
+    </script>
+</body>
+</html>

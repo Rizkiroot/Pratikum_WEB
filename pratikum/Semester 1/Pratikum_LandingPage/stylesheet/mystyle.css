@@ -1,0 +1,341 @@
+*   {
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+
+}
+
+body {
+   background-image: url(../asset/img/cover.jpg);
+   position: relative;
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+}
+li {
+    list-style: none;
+}
+/*
+BAGIAN-MENU
+ */
+div.row-1 {
+    background-color: #fff;
+    height: 100%
+}
+
+img.logo1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.menu-bar {
+    height: 100%;
+    text-align: right;
+    background-color: yellow;
+} 
+
+.menu-bar ul {
+    display: inline-block;
+    list-style: none;
+    background: #53bd84;
+     padding: 0 100px;
+     list-style: none;
+     position: relative;
+     display: inline-table;
+     width: 100%;
+}
+
+.menu-bar ul:after {
+     content: ""; 
+     clear:both; 
+     display: block;
+}
+
+.menu-bar ul li{
+    text-align: center;
+    float: left;
+}
+
+.menu-bar ul li:hover{
+     background:#666;
+}
+
+
+.menu-bar ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 20px;
+    line-height: 50px
+}
+.menu-bar ul li:hover .sub1 {
+    display: block; 
+}
+.menu-bar ul .sub1{
+    display: none;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    background-color: #d35400;
+}
+.sub1 a:hover {
+    color: #fff;
+}
+/* 
+LACAK PAKET HOME
+ */
+.display-t {
+    margin-top: 300px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.8);
+    padding: 100px;
+}
+.display-t span {
+    font-size: 50px;
+    color: #4066b2;
+}
+.display-t h1{
+    font-size: 40px;
+    color: black;
+}
+.display-t form{
+    height: 50px;
+}
+/*
+DESKRIPSI HOME
+ */
+.col-3 {
+    height: 50%;
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:  rgba(253,253,255,0.5);
+    box-shadow: 15px 15px 2px rgba(0,0,0,0.8);
+    padding: 10px;
+}
+.col-3 h1 {
+    font-size: 30px;
+    font-style: unset;
+    color: white;
+}
+.col-3 span {
+    font-size: 40px;
+    color: #4066b5;
+}
+.col-3 p {
+    font-size: 17px;
+    font-family: arial;
+    color: white;
+}
+
+
+/*
+BAGIAN AKHIR
+ */
+.akhir {
+    margin-top: 40px;
+    background-color:  rgba(200,230,255,0.76);
+    width: 100%;
+    height: 370px;
+    padding-left: 50px;
+}
+img.logo2 {
+    height: 100px;
+    width: 100px;
+}
+.informasi p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top:  10px;
+}
+.cabang_indonesia {
+    margin-top: -145px;
+    margin-left: 450px;
+}
+.cabang_indonesia {
+
+}
+.cabang_Amerika {
+    margin-left: 450px;
+}
+.cabang_Francis {
+    margin-top: -177px;
+    margin-left: 950px;
+
+}
+/*
+MENU-LAYANAN
+ */
+.layanan {
+    margin-top: 300px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.8);
+    padding: 100px;
+}
+.layanan p {
+    margin-bottom: 10px;
+}
+
+/*
+MENU-DOWNLOAD
+ */
+
+.download { 
+    margin-top: 300px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.8);
+    padding: 100px;
+}
+
+.playstore {
+    margin-top: 20px;
+    height: 100px;
+    width: 400px;
+}
+
+/*
+MENU-TETANG KAMI
+ */
+.tentang {
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.8);
+    padding: 50px;
+}
+.deskripsi {
+    margin-top: 10px;
+}
+.deskripsi h2 {
+    font-size: 30px;
+    color: white; 
+}
+.deskripsi span {
+    font-size: 40px;
+    color: #4066b2;
+}
+.deskripsi p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.Visi {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Visi p {
+    margin-top: 5px;
+}
+.Misi p{
+    margin-top: 5px;
+}
+
+/*
+MENU-KARIR
+ */
+.karir {
+    margin-top: 300px;
+    width: 55%;
+    margin-left: 23%;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    border: transparent;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.8);
+    padding: 50px;   
+}
+
+/*
+TARIF PENGIRIMAN
+ */
+
+.tarif_paket {
+    margin-top: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.8);
+    padding: 50px;  
+}
+
+/*
+SYARAT DAN KETENTUAN
+ */
+
+.syarat_dan_ketentuan {
+    margin-top: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 10px 10px 2px rgba(0,0,0,0.8);
+    padding: 50px;  
+}
+
+/*
+FAQ 
+ */
+
+.faq {
+    margin-top: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.8);
+    padding: 50px;
+}
+/*
+ABOUT
+ */
+
+.content {
+    margin-top: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 300px;
+    border-radius: 20px;
+    background-color:  rgba(253,253,255,0.76);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.8);
+    padding: 50px;
+}
+.content h1 {
+    font-style: italic;
+}
+.content h2 {
+    color: white;
+}
+.content span {
+    color: #4066b2; 
+}
+.content p {
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.visi_misi {
+    font-style: italic;
+    margin-bottom: 5px;
+}

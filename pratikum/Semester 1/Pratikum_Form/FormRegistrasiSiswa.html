@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ID">
+<head>
+	<title>From pendaftaran siswa</title>
+</head>
+<body>
+	<div>
+		<h3>Student registration Form</h3>
+	</div>
+	<div>
+		<form action="1" method="POST">
+				<fieldset id="personal_information">
+					<legend>Informasi Data Diri</legend>
+					<div class="form">	
+						<table>
+							<tr>
+								<td>
+									<label>NISN :</label>
+									<input type="text" name="nisn" id="nisn" required="">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="name">Nama Lengkap :</label>
+									<input type="text" name="nama" id="name" required="">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="jeniskelamin">Jenis Kelamin :</label>
+									<select>
+										<option value="man" >Laki-Laki</option>
+										<option value="girl">Perempuan</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="name">Tempat Lahir :</label>
+									<input type="text" id="tempatlahir" required="">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="start_date">Tanggal Lahir :</label>
+									<input type="date" required="" name="start_date" id="start_date" value="2002-08-30">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="sekolah_asal">Sekolah Asal :</label>	
+									<input type="text" name="sekolah_asal" required="">
+								</td>
+							</tr>
+						</table>
+					</div>	
+				</fieldset>
+				<fieldset id="contact_information">
+					<legend>kontak Informasi </legend>
+					<div class="contact_information">
+						<table>
+							<tr>
+								<td>
+									<label id="negara">Negara :</label>
+									<input type="text" name="negara" required="">
+								</td>
+								<td>
+									<label id="provinsi">Provinsi :</label>
+									<input type="text" name="negara" required="">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="kota">Kota :</label>
+									<input type="text" name="negara" required="">
+								</td>
+								<td>
+									<label id="kelurahan">Desa/Kelurahan :</label>
+									<input type="text" name="negara" required="">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="kecamata">Kecamatan :</label>
+									<input type="text" name="negara" required="">
+								</td>
+								<td>
+									<label id="kodepos">Kode Pos :</label>
+									<input type="number" required="" name="kodepos">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="alamat">Alamat :</label>
+									<textarea name="alamat" rows="2" cols="30" required=""></textarea>
+								</td>
+								<td>
+									<label for="email">Email :</label>
+									<input type="email" required id="email" name="email" placeholder="root@example.com">
+								</td>
+								<td>
+									<label id="number">Telpon :</label>
+									<input type="number" name="number" placeholder="01234" required="">
+								</td>
+							</tr>
+						</table>
+					</div>
+				</fieldset>
+				<fieldset id="orangtua_murid">
+					<legend>Data Orang Tua</legend>
+					<div class="orangtua_murid">
+						<table>
+							<tr>
+								<td>
+									<label id="ayah">Ayah </label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="name">Nama Lengkap :</label>
+									<input type="text" name="ayah">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="pekerjaan_ayah">Pekerjaan :</label>
+									<input type="text" name="pekerjaan">
+								</td>
+								<td>
+									<label id="penghasilan_ayah">Penghasilan :</label>
+									<input type="text" name="penghasilan">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="number_ayah"> Telpon :</label>
+									<input type="number" name="Telpon">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="ibu">Ibu </label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="name">Nama Lengkap :</label>
+									<input type="text" name="ibu">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="pekerjaan_ibu">Pekerjaan :</label>
+									<input type="text" name="pekerjaan">
+								</td>
+								<td>
+									<label id="penghasilan_ibu">Penghasilan :</label>
+									<input type="text" name="penghasilan">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label> Telpon :</label>
+									<input type="number" name="Telpon">
+								</td>
+							</tr>
+						</table>
+					</div>
+				</fieldset>
+					<input type="submit" value=" Submit">
+					<input type="submit" value="Reset">
+		</form>
+	</div>
+<!--Referensi : https://quintadirgantara.wordpress.com/2010/06/25/psb-depok-online-2010-metode-baru/-->
+</body>
+</html>
