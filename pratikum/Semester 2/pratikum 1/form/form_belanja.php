@@ -16,13 +16,12 @@ Pilih Produk :
 
 <hr>
 
-<?php 
-
+<?php
 $costumer =$_POST['nama'];
 $produk = $_POST['produk'];
 $jumlah = $_POST['jumlah'];
 echo "<br/>Nama Costumer : " .$costumer;
 echo "<br/>Produk Pilihan : " .$produk;
 echo "<br/>Jumlah Beli : " .$jumlah; 
-echo "<br/> Total Belanja : " .$jumlah;
+echo "<br/> Total Belanja : ". 'RP.' .$jumlah;
 ?>
