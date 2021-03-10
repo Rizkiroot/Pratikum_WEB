@@ -1,7 +1,7 @@
 <form action="form_belanja.php" method="POST">
 <h2>Belanja Online</h2>
 <hr>
-Costumer : <input type="text" name="nama" placeholder="nama costumer" value="">
+Costumer : <input type="text" name="costumer" placeholder="nama costumer" value="">
 <br>
 Pilih Produk : 
 <input type="radio" name="produk" value="TV" >TV
@@ -17,7 +17,7 @@ Pilih Produk :
 <hr>
 
 <?php
-$costumer =$_POST['nama'];
+$costumer =$_POST['costumer'];
 $produk = $_POST['produk'];
 $jumlah = $_POST['jumlah'];
 echo "<br/>Nama Costumer : " .$costumer;
